@@ -1,0 +1,10 @@
+buidler
+camelcase
+mixedcase
+nomiclabs
+prettierignore
+rari
+reentrancy
+snakecase
+solhint
+solmate

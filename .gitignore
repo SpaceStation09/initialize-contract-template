@@ -1,2 +1,8 @@
+artifacts/
+cache-hardhat/
 cache/
 out/
+node_modules/
+
+# Private info file
+.env
