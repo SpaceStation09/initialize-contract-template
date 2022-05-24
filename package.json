@@ -5,7 +5,11 @@
   "author": "space-station09",
   "license": "MIT",
   "scripts": {
-    "deploy": "hardhat deploy --network"
+    "lint": "solhint 'src/**/*.sol'",
+    "compile": "npx hardhat compile",
+    "coverage": "npx hardhat coverage --solcoverjs .solcover.js",
+    "deploy": "hardhat deploy --network",
+    "integration": "npx hardhat test"
   },
   "devDependencies": {
     "@nomiclabs/buidler": "^1.4.8",
