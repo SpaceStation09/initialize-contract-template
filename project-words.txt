@@ -1,5 +1,6 @@
 buidler
 camelcase
+eqeqeq
 mixedcase
 nomiclabs
 prettierignore
@@ -10,3 +11,4 @@ solcover
 solcoverjs
 solhint
 solmate
+typechain

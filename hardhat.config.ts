@@ -2,6 +2,7 @@ import "@nomiclabs/hardhat-ethers";
 import "@nomiclabs/hardhat-etherscan";
 import "@nomiclabs/hardhat-waffle";
 import "@openzeppelin/hardhat-upgrades";
+import "@typechain/hardhat";
 import * as dotenv from "dotenv";
 import { readFileSync } from "fs";
 import "hardhat-deploy";
@@ -70,6 +71,11 @@ const config: HardhatUserConfig = {
   etherscan: {
     // API key for Etherscan. https://etherscan.io/
     apiKey: process.env.ETHERSCAN_API_KEY ?? "",
+  },
+  typechain: {
+    outDir: "types",
+    target: "ethers-v5",
+    alwaysGenerateOverloads: false,
   },
 };
 
