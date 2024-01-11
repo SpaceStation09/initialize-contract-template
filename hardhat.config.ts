@@ -42,7 +42,6 @@ const config: HardhatUserConfig = {
   paths: {
     cache: "cache-hardhat",
     sources: "./src",
-    tests: "./hardhatTest",
   },
   defaultNetwork: "hardhat",
   networks: {

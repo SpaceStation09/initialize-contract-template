@@ -2,7 +2,7 @@
 pragma solidity ^0.8.0;
 
 import "forge-std/Test.sol";
-import "../Greeter.sol";
+import "../src/Greeter.sol";
 
 contract GreeterTest is Test {
     Greeter internal greeter;
