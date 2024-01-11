@@ -40,7 +40,8 @@
     "ts-node": "^10.8.0",
     "typechain": "^8.0.0",
     "typescript": "^4.7.2",
-    "forge-std": "github:foundry-rs/forge-std#v1"
+    "forge-std": "github:foundry-rs/forge-std#v1",
+    "ds-test": "github:dapphub/ds-test"
   },
   "dependencies": {
     "@openzeppelin/contracts": "^4.6.0",
